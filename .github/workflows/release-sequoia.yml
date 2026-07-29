@@ -12,6 +12,7 @@ run-name: "Tinycast ${{ github.ref_name }} · macOS 15 channel"
 #
 # Beta: tag v0.2.0-beta.3-sequoia.
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*-sequoia"
